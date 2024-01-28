@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box-example {
+        height: 280px;
+        background: #222 url("https://image.ibb.co/fUL9nS/wolf.png") no-repeat;
+        background-position: calc(100% - 20px) calc(100% - 20px);
+        /* If you want to align a background-image from right and bottom wasn't possible with just straight length values.
+        So now it's possible using calc(): */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box-example">
+    </div>
+  </body>
+</html>
+
+<!--
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/calc
+
+Calc()
+The function calc() allows to define CSS values with the use of mathematical expressions, the value adopted for the property is the result of a mathematical expression.
+
+
+Explanation
+It allows addition, subtraction, multiplication and division.
+Can use different units (pixel and percent together, for example) for each value in your expression.
+It is permitted to nest calc() functions.
+It can be used in any property that <length>, <frequency>, <angle>, <time>, <number>, <color>, or <integer> is allowed, like width, height, font-size, top, left, etc.
+
+-->
