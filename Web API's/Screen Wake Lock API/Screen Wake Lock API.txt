@@ -1,0 +1,21 @@
+
+
+
+Ep. 1 - Screen Wake Lock API - Prevents Screen from dimming- JavaScript/Web APIs Tutorial Series
+
+
+https://www.youtube.com/watch?v=CGsOGW3j_d0
+
+*******************************
+
+Screen Wake Lock API
+
+https://developer.mozilla.org/en-US/docs/Web/API/Screen_Wake_Lock_API
+
+*******************************
+
+existing package:
+
+https://github.com/jorisre/react-screen-wake-lock
+
+*******************************
